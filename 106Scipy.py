@@ -1,0 +1,11 @@
+from scipy import constants
+print("-------Constants in SciPy-------")
+print(constants.pi)
+print("--------Constant Units-------")
+print(dir(constants))
+print(constants.minute) 
+print(constants.hour) 
+print(constants.day) 
+print(constants.week) 
+print(constants.year) 
+print(constants.Boltzmann) 
